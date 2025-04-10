@@ -1,0 +1,135 @@
+{
+    "timestamp": "2023-10-01",
+    "disclaimer": "Officeholder names are as of October 2023. Verify current holders before production use.",
+    "government": {
+      "federal": {
+        "executive": {
+          "presidency": {
+            "offices": [
+              {
+                "name": "President and Commander-in-Chief",
+                "officeholder": "Bola Ahmed Tinubu",
+                "portfolio": "Head of State and Government"
+              },
+              {
+                "name": "Vice President",
+                "officeholder": "Kashim Shettima",
+                "portfolio": "Deputy Head of Government"
+              },
+              {
+                "name": "Secretary to the Government of the Federation",
+                "officeholder": "George Akume",
+                "portfolio": "Administrative head of the executive branch"
+              },
+              {
+                "name": "Chief of Staff to the President",
+                "officeholder": "Femi Gbajabiamila",
+                "portfolio": "Senior presidential aide"
+              }
+            ]
+          },
+          "ministries": [
+            {
+              "name": "Ministry of Agriculture and Rural Development",
+              "officeholder": "Mohammed Mahmood Abubakar",
+              "portfolio": "Agricultural policies and rural development"
+            },
+            {
+              "name": "Ministry of Finance, Budget and National Planning",
+              "officeholder": "Wale Edun",
+              "portfolio": "Fiscal policy and economic planning"
+            },
+            {
+              "name": "Ministry of Justice",
+              "officeholder": "Lateef Fagbemi (SAN)",
+              "portfolio": "Attorney-General of the Federation"
+            },
+            {
+              "name": "Ministry of Defence",
+              "officeholder": "Mohammed Badaru Abubakar",
+              "portfolio": "National defense matters"
+            }
+          ],
+          "keyAgencies": [
+            {
+              "name": "Central Bank of Nigeria",
+              "officeholder": "Olayemi Cardoso",
+              "portfolio": "Monetary policy and banking regulation"
+            },
+            {
+              "name": "Economic and Financial Crimes Commission (EFCC)",
+              "officeholder": "Ola Olukoyede",
+              "portfolio": "Financial crimes investigation"
+            }
+          ]
+        },
+        "legislative": {
+          "nationalAssembly": {
+            "senate": {
+              "officeholder": "Godswill Akpabio",
+              "title": "Senate President",
+              "deputy": "Barau Jibrin",
+              "membership": "109 Senators"
+            },
+            "houseOfRepresentatives": {
+              "officeholder": "Tajudeen Abbas",
+              "title": "Speaker",
+              "deputy": "Benjamin Kalu",
+              "membership": "360 Representatives"
+            }
+          }
+        },
+        "judiciary": {
+          "supremeCourt": {
+            "officeholder": "Olukayode Ariwoola",
+            "title": "Chief Justice of Nigeria"
+          },
+          "courtOfAppeal": {
+            "officeholder": "Monica Dongban-Mensem",
+            "title": "President, Court of Appeal"
+          }
+        }
+      },
+      "state": {
+        "template": {
+          "executive": {
+            "governor": "State Governor",
+            "deputyGovernor": "Deputy Governor",
+            "commissioners": "Heads of State Ministries"
+          },
+          "legislature": {
+            "speaker": "Speaker of State House of Assembly",
+            "members": "Elected Assembly Members"
+          },
+          "judiciary": {
+            "chiefJudge": "State Chief Judge"
+          }
+        },
+        "example": {
+          "lagos": {
+            "executive": {
+              "governor": "Babajide Sanwo-Olu",
+              "deputyGovernor": "Obafemi Hamzat"
+            },
+            "legislature": {
+              "speaker": "Mudashiru Obasa"
+            }
+          }
+        }
+      },
+      "localGovernment": {
+        "template": {
+          "chairman": "Elected LGA Chairman",
+          "viceChairman": "Deputy Chairman",
+          "councillors": "Ward Representatives",
+          "secretary": "LGA Administrative Head"
+        },
+        "example": {
+          "abujaMunicipal": {
+            "chairman": "Christopher Zakka Maikalangu",
+            "viceChairman": "Lawrence Onuchukwu"
+          }
+        }
+      }
+    }
+  }
