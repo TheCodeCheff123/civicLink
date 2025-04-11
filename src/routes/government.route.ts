@@ -4,10 +4,23 @@ import * as governmentController from '../controllers/government.controller';
 // const express = require('express');
 // const governmentController = require('../controllers/governmentController');
 
-const router = express.Router();
+class GovernmentRoutes {
+    public router: IRouter;
 
-router.get('/', governmentController.getGovernmentStructure);
-router.get('/federal', governmentController.getFederalLevel);
-router.get('/state/:state', governmentController.getStateLevel);
+    constructor() {
+        this.router = express.Router();
+        this.initializeRoutes();
+    }
 
-export default router;
+    private initializeRoutes() {
+        this.router.get('/', governmentController.getGovernmentStructure);
+        this.router.get('/federal', governmentController.getFederalLevel);
+        this.router.get('/state/:state', governmentController.getStateLevel);
+    }
+
+    public getRoutes(): IRouter {
+        return this.router;
+    }
+}
+
+export default GovernmentRoutes;

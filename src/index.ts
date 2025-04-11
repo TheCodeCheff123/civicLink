@@ -74,7 +74,7 @@ class App {
   }
 
   public initializeGovernmentIntegration(): void {
-    this.app.use(`/api/${this.api_version}/government`, governmentRouter);
+    this.app.use(`/api/${this.api_version}/government`, );
   }
 }
 
