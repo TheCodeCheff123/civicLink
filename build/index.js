@@ -12,7 +12,6 @@ const routes_1 = __importDefault(require("./routes"));
 const database_1 = __importDefault(require("./config/database"));
 const error_middleware_1 = __importDefault(require("./middlewares/error.middleware"));
 const logger_1 = __importDefault(require("./config/logger"));
-const government_route_1 = __importDefault(require("./routes/government.route"));
 const morgan_1 = __importDefault(require("morgan"));
 class App {
     constructor() {
@@ -58,7 +57,7 @@ class App {
         return this.app;
     }
     initializeGovernmentIntegration() {
-        this.app.use(`/api/${this.api_version}/government`, government_route_1.default);
+        this.app.use(`/api/${this.api_version}/government`);
     }
 }
 exports.default = new App().getApp();

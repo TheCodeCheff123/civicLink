@@ -21,12 +21,20 @@ export const getFederalLevel = (req: Request, res: Response): void => {
     });
 };
 
+export const getStates = (req: Request, res: Response): void => {
+    res.status(200).json({
+        status: 'success',
+        data: governmentData.government.state.states
+    });
+}
+
 export const getStateLevel = (req: Request, res: Response): Response => {
     const state = req.params.state;
-    if (governmentData.government.state.example[state]) {
+    // Check if the state parameter is provided
+    if (governmentData.government.state.states[state]) {
         return res.status(200).json({
             status: 'success',
-            data: governmentData.government.state.example[state]
+            data: governmentData.government.state.states[state]
         });
     }
     return res.status(404).json({

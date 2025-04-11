@@ -1,0 +1,80 @@
+info: ::1 - - [11/Apr/2025:09:03:20 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:03:32 +0000] "GET /api/v1/government HTTP/1.1" 200 2737 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:04:05 +0000] "GET /api/v1/government/federal HTTP/1.1" 200 1860 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:04:19 +0000] "GET /api/v1/government/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:10:34 +0000] "GET /api/v1/government/state/abia HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:10:53 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:11:49 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:52:09 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:09:52:21 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:07:06 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:07:14 +0000] "GET /api/v1/government/state/akwaibom HTTP/1.1" 200 142 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:07:26 +0000] "GET /api/v1/government/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:07:34 +0000] "GET /api/v1/government/state/lagos HTTP/1.1" 200 153 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:11:23 +0000] "GET /api/v1/government/state/akwaibom HTTP/1.1" 200 137 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:11:33 +0000] "GET /api/v1/government/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:13:26 +0000] "GET /api/v1/government/state HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:15:03 +0000] "GET /api/v1/government/states HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:15:05 +0000] "GET /api/v1/government/state HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:15:24 +0000] "GET /api/v1/government/state/states HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:16:00 +0000] "GET /api/v1/government/state HTTP/1.1" 200 558 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:30:02 +0000] "GET /api/v1/federal HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:30:19 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:30:23 +0000] "GET /api/v1/federal HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:30:38 +0000] "GET /api/v1/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:31:30 +0000] "GET //api/v1/government/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:31:40 +0000] "GET //api/v1/government/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:31:46 +0000] "GET /api/v1/government/state HTTP/1.1" 200 558 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:31:53 +0000] "GET /api/v1/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:31:56 +0000] "GET /api/v1/states HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:35:44 +0000] "GET /api/v1/states HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:35:47 +0000] "GET /api/v1/states HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:38:50 +0000] "GET /api/v1/state HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:38:58 +0000] "GET /api/v1/government/state HTTP/1.1" 200 558 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:39:03 +0000] "GET /api/v1/government/ HTTP/1.1" 200 3131 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:39:25 +0000] "GET /api/v1/government/federal HTTP/1.1" 200 1860 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:40:16 +0000] "GET /api/v1/government/federal HTTP/1.1" 200 1860 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:40:30 +0000] "GET /api/v1/government/federal HTTP/1.1" 200 1860 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:54:10 +0000] "GET /api/v1/government/states HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:54:16 +0000] "GET /api/v1/government/state HTTP/1.1" 200 558 "-" "PostmanRuntime/7.43.2"
+
+info: ::1 - - [11/Apr/2025:10:55:11 +0000] "GET /api/v1/government/federal HTTP/1.1" 200 1860 "-" "PostmanRuntime/7.43.2"
+

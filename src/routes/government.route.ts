@@ -15,6 +15,7 @@ class GovernmentRoutes {
     private initializeRoutes() {
         this.router.get('/', governmentController.getGovernmentStructure);
         this.router.get('/federal', governmentController.getFederalLevel);
+        this.router.get('/state', governmentController.getStates);
         this.router.get('/state/:state', governmentController.getStateLevel);
     }
 

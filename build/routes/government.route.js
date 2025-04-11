@@ -30,8 +30,18 @@ const express_1 = __importDefault(require("express"));
 const governmentController = __importStar(require("../controllers/government.controller"));
 // const express = require('express');
 // const governmentController = require('../controllers/governmentController');
-const router = express_1.default.Router();
-router.get('/', governmentController.getGovernmentStructure);
-router.get('/federal', governmentController.getFederalLevel);
-router.get('/state/:state', governmentController.getStateLevel);
-exports.default = router;
+class GovernmentRoutes {
+    constructor() {
+        this.router = express_1.default.Router();
+        this.initializeRoutes();
+    }
+    initializeRoutes() {
+        this.router.get('/', governmentController.getGovernmentStructure);
+        this.router.get('/federal', governmentController.getFederalLevel);
+        this.router.get('/state/:state', governmentController.getStateLevel);
+    }
+    getRoutes() {
+        return this.router;
+    }
+}
+exports.default = GovernmentRoutes;

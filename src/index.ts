@@ -34,7 +34,6 @@ class App {
     this.initializeRoutes();
     this.initializeDatabase();
     this.initializeErrorHandlers();
-    this.initializeGovernmentIntegration();
     this.startApp();
   }
 
@@ -73,9 +72,7 @@ class App {
     return this.app;
   }
 
-  public initializeGovernmentIntegration(): void {
-    this.app.use(`/api/${this.api_version}/government`, );
-  }
+
 }
 
 export default new App().getApp();
