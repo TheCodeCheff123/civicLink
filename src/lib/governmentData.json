@@ -336,172 +336,172 @@
         },
         "lga": {
           "abujaMunicipal": {
-        "state": "Abuja",
-        "chairman": "Christopher Zakka Maikalangu",
-        "viceChairman": "Lawrence Onuchukwu",
-        "party": "PDP",
-        "contact": "08012345678",
-        "email": "chairman@abujamunicipal.gov.ng"
+            "state": "Abuja",
+            "chairman": {
+              "name": "Christopher Zakka Maikalangu",
+              "title": "Chairman",
+              "party": "PDP",
+              "contact": "08012345678",
+              "email": "chairman@abujamunicipal.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Lawrence Onuchukwu",
+              "title": "Vice Chairman",
+              "party": "PDP",
+              "contact": "08012345678",
+              "email": "vicechairman@abujamunicipal.gov.ng"
+            }
           },
           "agege": {
-        "state": "Lagos",
-        "chairman": "Egunjobi Ganiyu Kola",
-        "viceChairman": "Ogunji Abiodun Dare",
-        "party": "APC",
-        "contact": "08023456789",
-        "email": "chairman@agege.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Egunjobi Ganiyu Kola",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08023456789",
+              "email": "chairman@agege.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Ogunji Abiodun Dare",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08023456789",
+              "email": "vicechairman@agege.gov.ng"
+            }
           },
           "ajeromiIfelodun": {
-        "state": "Lagos",
-        "chairman": "Ayoola Fatai Adekunle",
-        "viceChairman": "Igwe Apollonia Nkem",
-        "party": "APC",
-        "contact": "08034567890",
-        "email": "chairman@ajeromiifelodun.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Ayoola Fatai Adekunle",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08034567890",
+              "email": "chairman@ajeromiifelodun.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Igwe Apollonia Nkem",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08034567890",
+              "email": "vicechairman@ajeromiifelodun.gov.ng"
+            }
           },
           "alimosho": {
-        "state": "Lagos",
-        "chairman": "Sulaiman Jelili Adewale",
-        "viceChairman": "Adebisi Francis Atoyebi",
-        "party": "APC",
-        "contact": "08045678901",
-        "email": "chairman@alimosho.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Sulaiman Jelili Adewale",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08045678901",
+              "email": "chairman@alimosho.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Adebisi Francis Atoyebi",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08045678901",
+              "email": "vicechairman@alimosho.gov.ng"
+            }
           },
           "amuwoOdofin": {
-        "state": "Lagos",
-        "chairman": "Buraimoh Valentine Oluwaseyi",
-        "viceChairman": "Idris Olusegun Abubakar",
-        "party": "APC",
-        "contact": "08056789012",
-        "email": "chairman@amuwoodofin.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Buraimoh Valentine Oluwaseyi",
+              "party": "APC",
+              "contact": "08056789012",
+              "email": "chairman@amuwoodofin.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Idris Olusegun Abubakar",
+              "party": "APC",
+              "contact": "08056789012",
+              "email": "vicechairman@amuwoodofin.gov.ng"
+            }
           },
           "apapa": {
-        "state": "Lagos",
-        "chairman": "Idowu Senbanjo",
-        "viceChairman": "Akinyemi Adeniyi",
-        "party": "APC",
-        "contact": "08067890123",
-        "email": "chairman@apapa.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Idowu Senbanjo",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08067890123",
+              "email": "chairman@apapa.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Akinyemi Adeniyi",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08067890123",
+              "email": "vicechairman@apapa.gov.ng"
+            }
           },
           "badagry": {
-        "state": "Lagos",
-        "chairman": "Olatunde Samson Folorunso",
-        "viceChairman": "Bamgbose Olufemi Saheed",
-        "party": "APC",
-        "contact": "08078901234",
-        "email": "chairman@badagry.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Olatunde Samson Folorunso",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08078901234",
+              "email": "chairman@badagry.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Bamgbose Olufemi Saheed",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08078901234",
+              "email": "vicechairman@badagry.gov.ng"
+            }
           },
           "epe": {
-        "state": "Lagos",
-        "chairman": "Adedoyin Adesanya",
-        "viceChairman": "Ogunbanwo Olufunke",
-        "party": "APC",
-        "contact": "08089012345",
-        "email": "chairman@epe.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Adedoyin Adesanya",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08089012345",
+              "email": "chairman@epe.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Ogunbanwo Olufunke",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08089012345",
+              "email": "vicechairman@epe.gov.ng"
+            }
           },
           "etiOsa": {
-        "state": "Lagos",
-        "chairman": "Ogidan Mukandasi Olaitan",
-        "viceChairman": "Saheed Bakre Taiwo",
-        "party": "APC",
-        "contact": "08090123456",
-        "email": "chairman@etiosa.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Ogidan Mukandasi Olaitan",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08090123456",
+              "email": "chairman@etiosa.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Saheed Bakre Taiwo",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08090123456",
+              "email": "vicechairman@etiosa.gov.ng"
+            }
           },
           "ibejuLekki": {
-        "state": "Lagos",
-        "chairman": "Abiodun Suraju",
-        "viceChairman": "Ogunlana Kazeem",
-        "party": "APC",
-        "contact": "08101234567",
-        "email": "chairman@ibejulekki.gov.ng"
-          },
-          "ifakoIjaiye": {
-        "state": "Lagos",
-        "chairman": "Tijani Ahmed Idowu",
-        "viceChairman": "Sobande Sesan",
-        "party": "APC",
-        "contact": "08112345678",
-        "email": "chairman@ifakoijaiye.gov.ng"
-          },
-          "ikeja": {
-        "state": "Lagos",
-        "chairman": "Oke Francis Babatunde",
-        "viceChairman": "Olakanle Oladotun",
-        "party": "APC",
-        "contact": "08123456789",
-        "email": "chairman@ikeja.gov.ng"
-          },
-          "ikorodu": {
-        "state": "Lagos",
-        "chairman": "Akinola Hassan Ramotalai Olarewaju",
-        "viceChairman": "Badmus Olanrewaju Moshood",
-        "party": "APC",
-        "contact": "08134567890",
-        "email": "chairman@ikorodu.gov.ng"
-          },
-          "kosofe": {
-        "state": "Lagos",
-        "chairman": "Moyo Ogunlewe",
-        "viceChairman": "Olumide Adebayo",
-        "party": "APC",
-        "contact": "08145678901",
-        "email": "chairman@kosofe.gov.ng"
-          },
-          "lagosIsland": {
-        "state": "Lagos",
-        "chairman": "Muse Ariyoh Bolaji Idris",
-        "viceChairman": "Oso Oludaisi Timothy",
-        "party": "APC",
-        "contact": "08156789012",
-        "email": "chairman@lagosisland.gov.ng"
-          },
-          "lagosMainland": {
-        "state": "Lagos",
-        "chairman": "Ashafa Musibau Adekunle",
-        "viceChairman": "Kareem Azeez Abiodun",
-        "party": "APC",
-        "contact": "08167890123",
-        "email": "chairman@lagosmainland.gov.ng"
-          },
-          "mushin": {
-        "state": "Lagos",
-        "chairman": "Abdul Hammed Salawu",
-        "viceChairman": "Olubowale Sosinmi",
-        "party": "APC",
-        "contact": "08178901234",
-        "email": "chairman@mushin.gov.ng"
-          },
-          "oshodiIsolo": {
-        "state": "Lagos",
-        "chairman": "Ajide Yomi Tajudeen Yusuff",
-        "viceChairman": "Yusuf Bamidele Sulaiman",
-        "party": "APC",
-        "contact": "08189012345",
-        "email": "chairman@oshodiisolo.gov.ng"
-          },
-          "somolu": {
-        "state": "Lagos",
-        "chairman": "Omiyale Kayode Adejare",
-        "viceChairman": "Aileru Bolanle Nurudeen",
-        "party": "APC",
-        "contact": "08190123456",
-        "email": "chairman@somolu.gov.ng"
-          },
-          "surulere": {
-        "state": "Lagos",
-        "chairman": "Ajala Rasaq Olusola",
-        "viceChairman": "Jakande Oluseyi Lawal",
-        "party": "APC",
-        "contact": "08201234567",
-        "email": "chairman@surulere.gov.ng"
-          },
-          "yaba": {
-        "state": "Lagos",
-        "chairman": "Idowu Rasulu Olusola",
-        "viceChairman": "Uche-Ubochi Edna Obianuju",
-        "party": "APC",
-        "contact": "08212345678",
-        "email": "chairman@yaba.gov.ng"
+            "state": "Lagos",
+            "chairman": {
+              "name": "Abiodun Suraju",
+              "title": "Chairman",
+              "party": "APC",
+              "contact": "08101234567",
+              "email": "chairman@ibejulekki.gov.ng"
+            },
+            "viceChairman": {
+              "name": "Ogunlana Kazeem",
+              "title": "Vice Chairman",
+              "party": "APC",
+              "contact": "08101234567",
+              "email": "vicechairman@ibejulekki.gov.ng"
+            }
           }
         }
       }
