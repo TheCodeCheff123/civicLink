@@ -5,96 +5,124 @@
       "federal": {
         "executive": {
           "presidency": {
-            "offices": [
-              {
-              "name": "President and Commander-in-Chief",
-              "officeholder": "Bola Ahmed Tinubu",
-              "portfolio": "Head of State and Government",
-              "party": "APC"
-              },
-              {
-              "name": "Vice President",
-              "officeholder": "Kashim Shettima",
-              "portfolio": "Deputy Head of Government",
-              "party": "APC"
-              },
-              {
-              "name": "Secretary to the Government of the Federation",
-              "officeholder": "George Akume",
-              "portfolio": "Administrative head of the executive branch",
-              "party": "APC"
-              },
-              {
-              "name": "Chief of Staff to the President",
-              "officeholder": "Femi Gbajabiamila",
-              "portfolio": "Senior presidential aide",
-              "party": "APC"
-              }
-            ]
+        "offices": [
+          {
+            "name": "President and Commander-in-Chief",
+            "officeholder": "Bola Ahmed Tinubu",
+            "portfolio": "Head of State and Government",
+            "party": "APC",
+            "contact": "08012345678",
+            "email": "president@nigeria.gov.ng"
           },
-            "ministries": [
-            {
-              "name": "Ministry of Agriculture and Rural Development",
-              "officeholder": "Mohammed Mahmood Abubakar",
-              "portfolio": "Agricultural policies and rural development",
-              "party": "APC"
-            },
-            {
-              "name": "Ministry of Finance, Budget and National Planning",
-              "officeholder": "Wale Edun",
-              "portfolio": "Fiscal policy and economic planning",
-              "party": "APC"
-            },
-            {
-              "name": "Ministry of Justice",
-              "officeholder": "Lateef Fagbemi (SAN)",
-              "portfolio": "Attorney-General of the Federation",
-              "party": "APC"
-            },
-            {
-              "name": "Ministry of Defence",
-              "officeholder": "Mohammed Badaru Abubakar",
-              "portfolio": "National defense matters",
-              "party": "APC"
-            }
-            ],
+          {
+            "name": "Vice President",
+            "officeholder": "Kashim Shettima",
+            "portfolio": "Deputy Head of Government",
+            "party": "APC",
+            "contact": "08023456789",
+            "email": "vicepresident@nigeria.gov.ng"
+          },
+          {
+            "name": "Secretary to the Government of the Federation",
+            "officeholder": "George Akume",
+            "portfolio": "Administrative head of the executive branch",
+            "party": "APC",
+            "contact": "08034567890",
+            "email": "sgf@nigeria.gov.ng"
+          },
+          {
+            "name": "Chief of Staff to the President",
+            "officeholder": "Femi Gbajabiamila",
+            "portfolio": "Senior presidential aide",
+            "party": "APC",
+            "contact": "08045678901",
+            "email": "chiefstaff@nigeria.gov.ng"
+          }
+        ]
+          },
+          "ministries": [
+        {
+          "name": "Ministry of Agriculture and Rural Development",
+          "officeholder": "Mohammed Mahmood Abubakar",
+          "portfolio": "Agricultural policies and rural development",
+          "party": "APC",
+          "contact": "08056789012",
+          "email": "agriculture@nigeria.gov.ng"
+        },
+        {
+          "name": "Ministry of Finance, Budget and National Planning",
+          "officeholder": "Wale Edun",
+          "portfolio": "Fiscal policy and economic planning",
+          "party": "APC",
+          "contact": "08067890123",
+          "email": "finance@nigeria.gov.ng"
+        },
+        {
+          "name": "Ministry of Justice",
+          "officeholder": "Lateef Fagbemi (SAN)",
+          "portfolio": "Attorney-General of the Federation",
+          "party": "APC",
+          "contact": "08078901234",
+          "email": "justice@nigeria.gov.ng"
+        },
+        {
+          "name": "Ministry of Defence",
+          "officeholder": "Mohammed Badaru Abubakar",
+          "portfolio": "National defense matters",
+          "party": "APC",
+          "contact": "08089012345",
+          "email": "defence@nigeria.gov.ng"
+        }
+          ],
           "keyAgencies": [
-            {
-              "name": "Central Bank of Nigeria",
-              "officeholder": "Olayemi Cardoso",
-              "portfolio": "Monetary policy and banking regulation"
-            },
-            {
-              "name": "Economic and Financial Crimes Commission (EFCC)",
-              "officeholder": "Ola Olukoyede",
-              "portfolio": "Financial crimes investigation"
-            }
+        {
+          "name": "Central Bank of Nigeria",
+          "officeholder": "Olayemi Cardoso",
+          "portfolio": "Monetary policy and banking regulation",
+          "contact": "08090123456",
+          "email": "cbn@nigeria.gov.ng"
+        },
+        {
+          "name": "Economic and Financial Crimes Commission (EFCC)",
+          "officeholder": "Ola Olukoyede",
+          "portfolio": "Financial crimes investigation",
+          "contact": "08101234567",
+          "email": "efcc@nigeria.gov.ng"
+        }
           ]
         },
         "legislative": {
           "nationalAssembly": {
-            "senate": {
-              "officeholder": "Godswill Akpabio",
-              "title": "Senate President",
-              "deputy": "Barau Jibrin",
-              "membership": "109 Senators"
-            },
-            "houseOfRepresentatives": {
-              "officeholder": "Tajudeen Abbas",
-              "title": "Speaker",
-              "deputy": "Benjamin Kalu",
-              "membership": "360 Representatives"
-            }
+        "senate": {
+          "officeholder": "Godswill Akpabio",
+          "title": "Senate President",
+          "deputy": "Barau Jibrin",
+          "membership": "109 Senators",
+          "contact": "08112345678",
+          "email": "senate@nass.gov.ng"
+        },
+        "houseOfRepresentatives": {
+          "officeholder": "Tajudeen Abbas",
+          "title": "Speaker",
+          "deputy": "Benjamin Kalu",
+          "membership": "360 Representatives",
+          "contact": "08123456789",
+          "email": "house@nass.gov.ng"
+        }
           }
         },
         "judiciary": {
           "supremeCourt": {
-            "officeholder": "Olukayode Ariwoola",
-            "title": "Chief Justice of Nigeria"
+        "officeholder": "Olukayode Ariwoola",
+        "title": "Chief Justice of Nigeria",
+        "contact": "08134567890",
+        "email": "supremecourt@nigeria.gov.ng"
           },
           "courtOfAppeal": {
-            "officeholder": "Monica Dongban-Mensem",
-            "title": "President, Court of Appeal"
+        "officeholder": "Monica Dongban-Mensem",
+        "title": "President, Court of Appeal",
+        "contact": "08145678901",
+        "email": "courtofappeal@nigeria.gov.ng"
           }
         }
       },
