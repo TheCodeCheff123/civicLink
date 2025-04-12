@@ -9,22 +9,26 @@
                         {
                             "name": "President and Commander-in-Chief",
                             "officeholder": "Bola Ahmed Tinubu",
-                            "portfolio": "Head of State and Government"
+                            "portfolio": "Head of State and Government",
+                            "party": "APC"
                         },
                         {
                             "name": "Vice President",
                             "officeholder": "Kashim Shettima",
-                            "portfolio": "Deputy Head of Government"
+                            "portfolio": "Deputy Head of Government",
+                            "party": "APC"
                         },
                         {
                             "name": "Secretary to the Government of the Federation",
                             "officeholder": "George Akume",
-                            "portfolio": "Administrative head of the executive branch"
+                            "portfolio": "Administrative head of the executive branch",
+                            "party": "APC"
                         },
                         {
                             "name": "Chief of Staff to the President",
                             "officeholder": "Femi Gbajabiamila",
-                            "portfolio": "Senior presidential aide"
+                            "portfolio": "Senior presidential aide",
+                            "party": "APC"
                         }
                     ]
                 },
@@ -32,22 +36,26 @@
                     {
                         "name": "Ministry of Agriculture and Rural Development",
                         "officeholder": "Mohammed Mahmood Abubakar",
-                        "portfolio": "Agricultural policies and rural development"
+                        "portfolio": "Agricultural policies and rural development",
+                        "party": "APC"
                     },
                     {
                         "name": "Ministry of Finance, Budget and National Planning",
                         "officeholder": "Wale Edun",
-                        "portfolio": "Fiscal policy and economic planning"
+                        "portfolio": "Fiscal policy and economic planning",
+                        "party": "APC"
                     },
                     {
                         "name": "Ministry of Justice",
                         "officeholder": "Lateef Fagbemi (SAN)",
-                        "portfolio": "Attorney-General of the Federation"
+                        "portfolio": "Attorney-General of the Federation",
+                        "party": "APC"
                     },
                     {
                         "name": "Ministry of Defence",
                         "officeholder": "Mohammed Badaru Abubakar",
-                        "portfolio": "National defense matters"
+                        "portfolio": "National defense matters",
+                        "party": "APC"
                     }
                 ],
                 "keyAgencies": [
@@ -105,14 +113,137 @@
                     "chiefJudge": "State Chief Judge"
                 }
             },
-            "example": {
+            "states": {
                 "lagos": {
                     "executive": {
-                        "governor": "Babajide Sanwo-Olu",
-                        "deputyGovernor": "Obafemi Hamzat"
+                        "governor": "Sheriff Oborevwori",
+                        "deputyGovernor": "Obafemi Hamzat",
+                        "party": "APC"
                     },
                     "legislature": {
-                        "speaker": "Mudashiru Obasa"
+                        "speaker": "Mudashiru Obasa",
+                        "party": "APC"
+                    }
+                },
+                "abuja": {
+                    "executive": {
+                        "governor": "Nyesom Wike",
+                        "deputyGovernor": "Mohammed Hassan",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Tajudeen Abbas",
+                        "party": "APC"
+                    }
+                },
+                "delta": {
+                    "executive": {
+                        "governor": "Sheriff Oborevwori",
+                        "deputyGovernor": "Olorogun Kingsley Otuaro",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Oborevwori Sheriff",
+                        "party": "PDP"
+                    }
+                },
+                "akwaibom": {
+                    "executive": {
+                        "governor": "Umo Eno",
+                        "deputyGovernor": "Emmanuel Akpan",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Udo Kieran",
+                        "party": "PDP"
+                    }
+                },
+                "rivers": {
+                    "executive": {
+                        "governor": "Siminalayi Fubara",
+                        "deputyGovernor": "Ipalibo Harry Banigo",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Ikuinyi-Owaji Ibani",
+                        "party": "PDP"
+                    }
+                },
+                "crossriver": {
+                    "executive": {
+                        "governor": "Benedict Ayade",
+                        "deputyGovernor": "Ivara Esu",
+                        "party": "APC"
+                    },
+                    "legislature": {
+                        "speaker": "Elijah Akpan",
+                        "party": "APC"
+                    }
+                },
+                "abia": {
+                    "executive": {
+                        "governor": "Alex Otti",
+                        "deputyGovernor": "Ifeanyi Ubah",
+                        "party": "LP"
+                    },
+                    "legislature": {
+                        "speaker": "Chinedum Orji",
+                        "party": "PDP"
+                    }
+                },
+                "adamawa": {
+                    "executive": {
+                        "governor": "Ahmadu Fintiri",
+                        "deputyGovernor": "Kalap Malat",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Abbas Gaji",
+                        "party": "PDP"
+                    }
+                },
+                "bauchi": {
+                    "executive": {
+                        "governor": "Bala Mohammed",
+                        "deputyGovernor": "Babayo Mohammed",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Abdulkadir Abubakar",
+                        "party": "PDP"
+                    }
+                },
+                "benin": {
+                    "executive": {
+                        "governor": "Godwin Obaseki",
+                        "deputyGovernor": "Philip Shaibu",
+                        "party": "PDP"
+                    },
+                    "legislature": {
+                        "speaker": "Marcus Onobun",
+                        "party": "PDP"
+                    }
+                },
+                "kebbi": {
+                    "executive": {
+                        "governor": "Nasir Idris",
+                        "deputyGovernor": "Samaila Yombe",
+                        "party": "APC"
+                    },
+                    "legislature": {
+                        "speaker": "Abubakar Lolo",
+                        "party": "APC"
+                    }
+                },
+                "kaduna": {
+                    "executive": {
+                        "governor": "Uba Sani",
+                        "deputyGovernor": "Hadiza Balarabe",
+                        "party": "APC"
+                    },
+                    "legislature": {
+                        "speaker": "Isaac Auta",
+                        "party": "APC"
                     }
                 }
             }
@@ -122,12 +253,309 @@
                 "chairman": "Elected LGA Chairman",
                 "viceChairman": "Deputy Chairman",
                 "councillors": "Ward Representatives",
-                "secretary": "LGA Administrative Head"
+                "secretary": "LGA Administrative Head",
+                "party": "Political Party Affiliation"
             },
-            "example": {
+            "lga": {
                 "abujaMunicipal": {
+                    "state": "Abuja",
                     "chairman": "Christopher Zakka Maikalangu",
-                    "viceChairman": "Lawrence Onuchukwu"
+                    "viceChairman": "Lawrence Onuchukwu",
+                    "party": "PDP"
+                },
+                "agege": {
+                    "state": "Lagos",
+                    "chairman": "Egunjobi Ganiyu Kola",
+                    "viceChairman": "Ogunji Abiodun Dare",
+                    "party": "APC"
+                },
+                "ajeromiIfelodun": {
+                    "state": "Lagos",
+                    "chairman": "Ayoola Fatai Adekunle",
+                    "viceChairman": "Igwe Apollonia Nkem",
+                    "party": "APC"
+                },
+                "alimosho": {
+                    "state": "Lagos",
+                    "chairman": "Sulaiman Jelili Adewale",
+                    "viceChairman": "Adebisi Francis Atoyebi",
+                    "party": "APC"
+                },
+                "amuwoOdofin": {
+                    "state": "Lagos",
+                    "chairman": "Buraimoh Valentine Oluwaseyi",
+                    "viceChairman": "Idris Olusegun Abubakar",
+                    "party": "APC"
+                },
+                "apapa": {
+                    "state": "Lagos",
+                    "chairman": "Idowu Senbanjo",
+                    "viceChairman": "Akinyemi Adeniyi",
+                    "party": "APC"
+                },
+                "badagry": {
+                    "state": "Lagos",
+                    "chairman": "Olatunde Samson Folorunso",
+                    "viceChairman": "Bamgbose Olufemi Saheed",
+                    "party": "APC"
+                },
+                "epe": {
+                    "state": "Lagos",
+                    "chairman": "Adedoyin Adesanya",
+                    "viceChairman": "Ogunbanwo Olufunke",
+                    "party": "APC"
+                },
+                "etiOsa": {
+                    "state": "Lagos",
+                    "chairman": "Ogidan Mukandasi Olaitan",
+                    "viceChairman": "Saheed Bakre Taiwo",
+                    "party": "APC"
+                },
+                "ibejuLekki": {
+                    "state": "Lagos",
+                    "chairman": "Abiodun Suraju",
+                    "viceChairman": "Ogunlana Kazeem",
+                    "party": "APC"
+                },
+                "ifakoIjaiye": {
+                    "state": "Lagos",
+                    "chairman": "Tijani Ahmed Idowu",
+                    "viceChairman": "Sobande Sesan",
+                    "party": "APC"
+                },
+                "ikeja": {
+                    "state": "Lagos",
+                    "chairman": "Oke Francis Babatunde",
+                    "viceChairman": "Olakanle Oladotun",
+                    "party": "APC"
+                },
+                "ikorodu": {
+                    "state": "Lagos",
+                    "chairman": "Akinola Hassan Ramotalai Olarewaju",
+                    "viceChairman": "Badmus Olanrewaju Moshood",
+                    "party": "APC"
+                },
+                "kosofe": {
+                    "state": "Lagos",
+                    "chairman": "Moyo Ogunlewe",
+                    "viceChairman": "Olumide Adebayo",
+                    "party": "APC"
+                },
+                "lagosIsland": {
+                    "state": "Lagos",
+                    "chairman": "Muse Ariyoh Bolaji Idris",
+                    "viceChairman": "Oso Oludaisi Timothy",
+                    "party": "APC"
+                },
+                "lagosMainland": {
+                    "state": "Lagos",
+                    "chairman": "Ashafa Musibau Adekunle",
+                    "viceChairman": "Kareem Azeez Abiodun",
+                    "party": "APC"
+                },
+                "mushin": {
+                    "state": "Lagos",
+                    "chairman": "Abdul Hammed Salawu",
+                    "viceChairman": "Olubowale Sosinmi",
+                    "party": "APC"
+                },
+                "oshodiIsolo": {
+                    "state": "Lagos",
+                    "chairman": "Ajide Yomi Tajudeen Yusuff",
+                    "viceChairman": "Yusuf Bamidele Sulaiman",
+                    "party": "APC"
+                },
+                "somolu": {
+                    "state": "Lagos",
+                    "chairman": "Omiyale Kayode Adejare",
+                    "viceChairman": "Aileru Bolanle Nurudeen",
+                    "party": "APC"
+                },
+                "surulere": {
+                    "state": "Lagos",
+                    "chairman": "Ajala Rasaq Olusola",
+                    "viceChairman": "Jakande Oluseyi Lawal",
+                    "party": "APC"
+                },
+                "yaba": {
+                    "state": "Lagos",
+                    "chairman": "Idowu Rasulu Olusola",
+                    "viceChairman": "Uche-Ubochi Edna Obianuju",
+                    "party": "APC"
+                },
+                "adavi": {
+                    "state": "Kogi",
+                    "chairman": "Rasheed Okatengwu",
+                    "viceChairman": "Hawawu Aanazuo",
+                    "party": "APC"
+                },
+                "ajaokuta": {
+                    "state": "Kogi",
+                    "chairman": "Haruna Aliyu",
+                    "viceChairman": "Zainab Salihu",
+                    "party": "APC"
+                },
+                "ankpa": {
+                    "state": "Kogi",
+                    "chairman": "Adamu Yahaya",
+                    "viceChairman": "Halimat Imam",
+                    "party": "APC"
+                },
+                "bassa": {
+                    "state": "Kogi",
+                    "chairman": "Adama Theophilus Daruwana",
+                    "viceChairman": "Aisha Aliyu",
+                    "party": "APC"
+                },
+                "dekina": {
+                    "state": "Kogi",
+                    "chairman": "John Urah",
+                    "viceChairman": "Rashida Abdullahi",
+                    "party": "APC"
+                },
+                "ibaji": {
+                    "state": "Kogi",
+                    "chairman": "Emmanuel Onuche",
+                    "viceChairman": "Victoria Okolo",
+                    "party": "APC"
+                },
+                "idah": {
+                    "state": "Kogi",
+                    "chairman": "Alfa Halilu",
+                    "viceChairman": "Nafisetu Oseni",
+                    "party": "APC"
+                },
+                "ijumu": {
+                    "state": "Kogi",
+                    "chairman": "Taofiq Isa",
+                    "viceChairman": "Funmilayo Olusola",
+                    "party": "APC"
+                },
+                "okene": {
+                    "state": "Kogi",
+                    "chairman": "Abdulrazaq Muhammad",
+                    "viceChairman": "Abdullahi Salihu",
+                    "party": "APC"
+                },
+                "omala": {
+                    "state": "Kogi",
+                    "chairman": "Abubakar Ibrahim",
+                    "viceChairman": "Fatima Suleiman",
+                    "party": "APC"
+                },
+                "lokoja": {
+                    "state": "Kogi",
+                    "chairman": "Abubakar Danladi",
+                    "viceChairman": "Maryam Suleiman",
+                    "party": "APC"
+                },
+                "kabbaBunu": {
+                    "state": "Kogi",
+                    "chairman": "Emmanuel Funsho",
+                    "viceChairman": "Grace Adejoh",
+                    "party": "APC"
+                },
+                "ogoriMagongo": {
+                    "state": "Kogi",
+                    "chairman": "Oluwole Adebayo",
+                    "viceChairman": "Ruth Adeola",
+                    "party": "APC"
+                },
+                "abaNorth": {
+                    "state": "Abia",
+                    "chairman": "Uchechukwu Nwankwo",
+                    "viceChairman": "Chidinma Okoro",
+                    "party": "LP"
+                },
+                "abaSouth": {
+                    "state": "Abia",
+                    "chairman": "Ikechukwu Nwogu",
+                    "viceChairman": "Ngozi Ude",
+                    "party": "LP"
+                },
+                "umuahiaNorth": {
+                    "state": "Abia",
+                    "chairman": "Emeka Okezie",
+                    "viceChairman": "Amarachi Nwachukwu",
+                    "party": "LP"
+                },
+                "umuahiaSouth": {
+                    "state": "Abia",
+                    "chairman": "Chijioke Nwankpa",
+                    "viceChairman": "Blessing Okafor",
+                    "party": "LP"
+                },
+                "portHarcourt": {
+                    "state": "Rivers",
+                    "chairman": "Victor Ihunwo",
+                    "viceChairman": "Grace Nwankwo",
+                    "party": "PDP"
+                },
+                "obioAkpor": {
+                    "state": "Rivers",
+                    "chairman": "George Ariolu",
+                    "viceChairman": "Ebiye Tamuno",
+                    "party": "PDP"
+                },
+                "oyigbo": {
+                    "state": "Rivers",
+                    "chairman": "Gift Okere",
+                    "viceChairman": "Chinwe Amadi",
+                    "party": "PDP"
+                },
+                "eleme": {
+                    "state": "Rivers",
+                    "chairman": "Philip Okparaji",
+                    "viceChairman": "Joy Nwosu",
+                    "party": "PDP"
+                },
+                "kadunaNorth": {
+                    "state": "Kaduna",
+                    "chairman": "Suleiman Abubakar",
+                    "viceChairman": "Hauwa Ibrahim",
+                    "party": "APC"
+                },
+                "kadunaSouth": {
+                    "state": "Kaduna",
+                    "chairman": "Bello Mohammed",
+                    "viceChairman": "Fatima Yusuf",
+                    "party": "APC"
+                },
+                "zaria": {
+                    "state": "Kaduna",
+                    "chairman": "Aliyu Ibrahim",
+                    "viceChairman": "Maryam Sule",
+                    "party": "APC"
+                },
+                "kafanchan": {
+                    "state": "Kaduna",
+                    "chairman": "Joshua Danjuma",
+                    "viceChairman": "Ruth Yakubu",
+                    "party": "APC"
+                },
+                "uyo": {
+                    "state": "Akwa Ibom",
+                    "chairman": "Anietie Ekong",
+                    "viceChairman": "Ekemini Udoh",
+                    "party": "PDP"
+                },
+                "ikotEkpene": {
+                    "state": "Akwa Ibom",
+                    "chairman": "Victor Udo",
+                    "viceChairman": "Iniobong Akpan",
+                    "party": "PDP"
+                },
+                "eket": {
+                    "state": "Akwa Ibom",
+                    "chairman": "Nsikak John",
+                    "viceChairman": "Mfon Etim",
+                    "party": "PDP"
+                },
+                "orukAnam": {
+                    "state": "Akwa Ibom",
+                    "chairman": "Emmanuel Akpan",
+                    "viceChairman": "Grace Ufot",
+                    "party": "PDP"
                 }
             }
         }

@@ -7,49 +7,57 @@
           "presidency": {
             "offices": [
               {
-                "name": "President and Commander-in-Chief",
-                "officeholder": "Bola Ahmed Tinubu",
-                "portfolio": "Head of State and Government"
+              "name": "President and Commander-in-Chief",
+              "officeholder": "Bola Ahmed Tinubu",
+              "portfolio": "Head of State and Government",
+              "party": "APC"
               },
               {
-                "name": "Vice President",
-                "officeholder": "Kashim Shettima",
-                "portfolio": "Deputy Head of Government"
+              "name": "Vice President",
+              "officeholder": "Kashim Shettima",
+              "portfolio": "Deputy Head of Government",
+              "party": "APC"
               },
               {
-                "name": "Secretary to the Government of the Federation",
-                "officeholder": "George Akume",
-                "portfolio": "Administrative head of the executive branch"
+              "name": "Secretary to the Government of the Federation",
+              "officeholder": "George Akume",
+              "portfolio": "Administrative head of the executive branch",
+              "party": "APC"
               },
               {
-                "name": "Chief of Staff to the President",
-                "officeholder": "Femi Gbajabiamila",
-                "portfolio": "Senior presidential aide"
+              "name": "Chief of Staff to the President",
+              "officeholder": "Femi Gbajabiamila",
+              "portfolio": "Senior presidential aide",
+              "party": "APC"
               }
             ]
           },
-          "ministries": [
+            "ministries": [
             {
               "name": "Ministry of Agriculture and Rural Development",
               "officeholder": "Mohammed Mahmood Abubakar",
-              "portfolio": "Agricultural policies and rural development"
+              "portfolio": "Agricultural policies and rural development",
+              "party": "APC"
             },
             {
               "name": "Ministry of Finance, Budget and National Planning",
               "officeholder": "Wale Edun",
-              "portfolio": "Fiscal policy and economic planning"
+              "portfolio": "Fiscal policy and economic planning",
+              "party": "APC"
             },
             {
               "name": "Ministry of Justice",
               "officeholder": "Lateef Fagbemi (SAN)",
-              "portfolio": "Attorney-General of the Federation"
+              "portfolio": "Attorney-General of the Federation",
+              "party": "APC"
             },
             {
               "name": "Ministry of Defence",
               "officeholder": "Mohammed Badaru Abubakar",
-              "portfolio": "National defense matters"
+              "portfolio": "National defense matters",
+              "party": "APC"
             }
-          ],
+            ],
           "keyAgencies": [
             {
               "name": "Central Bank of Nigeria",
@@ -109,124 +117,363 @@
           "lagos": {
             "executive": {
               "governor": "Sheriff Oborevwori",
-              "deputyGovernor": "Obafemi Hamzat"
+              "deputyGovernor": "Obafemi Hamzat",
+              "party": "APC",
+              "contact": "08012345678",
+              "email": "governor@lagosstate.gov.ng"
             },
             "legislature": {
-              "speaker": "Mudashiru Obasa"
+              "speaker": "Mudashiru Obasa",
+              "party": "APC",
+              "contact": "08023456789",
+              "email": "speaker@lagosstateassembly.gov.ng"
             }
           },
           "abuja": {
             "executive": {
               "governor": "Nyesom Wike",
-              "deputyGovernor": "Mohammed Hassan"
+              "deputyGovernor": "Mohammed Hassan",
+              "party": "PDP",
+              "contact": "08034567890",
+              "email": "governor@fct.gov.ng"
             },
             "legislature": {
-              "speaker": "Tajudeen Abbas"
+              "speaker": "Tajudeen Abbas",
+              "party": "APC",
+              "contact": "08045678901",
+              "email": "speaker@nass.gov.ng"
             }
           },
           "delta": {
             "executive": {
               "governor": "Sheriff Oborevwori",
-              "deputyGovernor": "Olorogun Kingsley Otuaro"
+              "deputyGovernor": "Olorogun Kingsley Otuaro",
+              "party": "PDP",
+              "contact": "08056789012",
+              "email": "governor@deltastate.gov.ng"
             },
             "legislature": {
-              "speaker": "Oborevwori Sheriff"
+              "speaker": "Oborevwori Sheriff",
+              "party": "PDP",
+              "contact": "08067890123",
+              "email": "speaker@deltastateassembly.gov.ng"
             }
           },
           "akwaibom": {
             "executive": {
               "governor": "Umo Eno",
-              "deputyGovernor": "Emmanuel Akpan"
+              "deputyGovernor": "Emmanuel Akpan",
+              "party": "PDP",
+              "contact": "08078901234",
+              "email": "governor@akwaibomstate.gov.ng"
             },
             "legislature": {
-              "speaker": "Udo Kieran"
+              "speaker": "Udo Kieran",
+              "party": "PDP",
+              "contact": "08089012345",
+              "email": "speaker@akwaibomassembly.gov.ng"
             }
           },
           "rivers": {
             "executive": {
               "governor": "Siminalayi Fubara",
-              "deputyGovernor": "Ipalibo Harry Banigo"
+              "deputyGovernor": "Ipalibo Harry Banigo",
+              "party": "PDP",
+              "contact": "08090123456",
+              "email": "governor@riversstate.gov.ng"
             },
             "legislature": {
-              "speaker": "Ikuinyi-Owaji Ibani"
+              "speaker": "Ikuinyi-Owaji Ibani",
+              "party": "PDP",
+              "contact": "08101234567",
+              "email": "speaker@riversstateassembly.gov.ng"
             }
           },
           "crossriver": {
             "executive": {
               "governor": "Benedict Ayade",
-              "deputyGovernor": "Ivara Esu"
+              "deputyGovernor": "Ivara Esu",
+              "party": "APC",
+              "contact": "08112345678",
+              "email": "governor@crossriverstate.gov.ng"
             },
             "legislature": {
-              "speaker": "Elijah Akpan"
+              "speaker": "Elijah Akpan",
+              "party": "APC",
+              "contact": "08123456789",
+              "email": "speaker@crossriverassembly.gov.ng"
             }
           },
           "abia": {
             "executive": {
               "governor": "Alex Otti",
-              "deputyGovernor": "Ifeanyi Ubah"
+              "deputyGovernor": "Ifeanyi Ubah",
+              "party": "LP",
+              "contact": "08134567890",
+              "email": "governor@abiastate.gov.ng"
             },
             "legislature": {
-              "speaker": "Chinedum Orji"
+              "speaker": "Chinedum Orji",
+              "party": "PDP",
+              "contact": "08145678901",
+              "email": "speaker@abiastateassembly.gov.ng"
             }
           },
           "adamawa": {
             "executive": {
               "governor": "Ahmadu Fintiri",
-              "deputyGovernor": "Kalap Malat"
+              "deputyGovernor": "Kalap Malat",
+              "party": "PDP",
+              "contact": "08156789012",
+              "email": "governor@adamawastate.gov.ng"
             },
             "legislature": {
-              "speaker": "Abbas Gaji"
+              "speaker": "Abbas Gaji",
+              "party": "PDP",
+              "contact": "08167890123",
+              "email": "speaker@adamawaassembly.gov.ng"
             }
           },
           "bauchi": {
             "executive": {
               "governor": "Bala Mohammed",
-              "deputyGovernor": "Babayo Mohammed"
+              "deputyGovernor": "Babayo Mohammed",
+              "party": "PDP",
+              "contact": "08178901234",
+              "email": "governor@bauchistate.gov.ng"
             },
             "legislature": {
-              "speaker": "Abdulkadir Abubakar"
+              "speaker": "Abdulkadir Abubakar",
+              "party": "PDP",
+              "contact": "08189012345",
+              "email": "speaker@bauchistateassembly.gov.ng"
             }
           },
           "benin": {
             "executive": {
               "governor": "Godwin Obaseki",
-              "deputyGovernor": "Philip Shaibu"
+              "deputyGovernor": "Philip Shaibu",
+              "party": "PDP",
+              "contact": "08190123456",
+              "email": "governor@edostate.gov.ng"
             },
             "legislature": {
-              "speaker": "Marcus Onobun"
+              "speaker": "Marcus Onobun",
+              "party": "PDP",
+              "contact": "08201234567",
+              "email": "speaker@edostateassembly.gov.ng"
             }
           },
           "kebbi": {
             "executive": {
               "governor": "Nasir Idris",
-              "deputyGovernor": "Samaila Yombe"
+              "deputyGovernor": "Samaila Yombe",
+              "party": "APC",
+              "contact": "08212345678",
+              "email": "governor@kebbistate.gov.ng"
             },
             "legislature": {
-              "speaker": "Abubakar Lolo"
+              "speaker": "Abubakar Lolo",
+              "party": "APC",
+              "contact": "08223456789",
+              "email": "speaker@kebbistateassembly.gov.ng"
             }
           },
           "kaduna": {
             "executive": {
               "governor": "Uba Sani",
-              "deputyGovernor": "Hadiza Balarabe"
+              "deputyGovernor": "Hadiza Balarabe",
+              "party": "APC",
+              "contact": "08234567890",
+              "email": "governor@kadunastate.gov.ng"
             },
             "legislature": {
-              "speaker": "Isaac Auta"
+              "speaker": "Isaac Auta",
+              "party": "APC",
+              "contact": "08245678901",
+              "email": "speaker@kadunastateassembly.gov.ng"
             }
           }
         }
       },
-      "localGovernment": {
+      "localGovernment": { 
         "template": {
           "chairman": "Elected LGA Chairman",
           "viceChairman": "Deputy Chairman",
           "councillors": "Ward Representatives",
-          "secretary": "LGA Administrative Head"
+          "secretary": "LGA Administrative Head",
+          "party": "Political Party Affiliation",
+          "contact": "Contact Information",
+          "email": "Email Address"
         },
-        "example": {
+        "lga": {
           "abujaMunicipal": {
-            "chairman": "Christopher Zakka Maikalangu",
-            "viceChairman": "Lawrence Onuchukwu"
+        "state": "Abuja",
+        "chairman": "Christopher Zakka Maikalangu",
+        "viceChairman": "Lawrence Onuchukwu",
+        "party": "PDP",
+        "contact": "08012345678",
+        "email": "chairman@abujamunicipal.gov.ng"
+          },
+          "agege": {
+        "state": "Lagos",
+        "chairman": "Egunjobi Ganiyu Kola",
+        "viceChairman": "Ogunji Abiodun Dare",
+        "party": "APC",
+        "contact": "08023456789",
+        "email": "chairman@agege.gov.ng"
+          },
+          "ajeromiIfelodun": {
+        "state": "Lagos",
+        "chairman": "Ayoola Fatai Adekunle",
+        "viceChairman": "Igwe Apollonia Nkem",
+        "party": "APC",
+        "contact": "08034567890",
+        "email": "chairman@ajeromiifelodun.gov.ng"
+          },
+          "alimosho": {
+        "state": "Lagos",
+        "chairman": "Sulaiman Jelili Adewale",
+        "viceChairman": "Adebisi Francis Atoyebi",
+        "party": "APC",
+        "contact": "08045678901",
+        "email": "chairman@alimosho.gov.ng"
+          },
+          "amuwoOdofin": {
+        "state": "Lagos",
+        "chairman": "Buraimoh Valentine Oluwaseyi",
+        "viceChairman": "Idris Olusegun Abubakar",
+        "party": "APC",
+        "contact": "08056789012",
+        "email": "chairman@amuwoodofin.gov.ng"
+          },
+          "apapa": {
+        "state": "Lagos",
+        "chairman": "Idowu Senbanjo",
+        "viceChairman": "Akinyemi Adeniyi",
+        "party": "APC",
+        "contact": "08067890123",
+        "email": "chairman@apapa.gov.ng"
+          },
+          "badagry": {
+        "state": "Lagos",
+        "chairman": "Olatunde Samson Folorunso",
+        "viceChairman": "Bamgbose Olufemi Saheed",
+        "party": "APC",
+        "contact": "08078901234",
+        "email": "chairman@badagry.gov.ng"
+          },
+          "epe": {
+        "state": "Lagos",
+        "chairman": "Adedoyin Adesanya",
+        "viceChairman": "Ogunbanwo Olufunke",
+        "party": "APC",
+        "contact": "08089012345",
+        "email": "chairman@epe.gov.ng"
+          },
+          "etiOsa": {
+        "state": "Lagos",
+        "chairman": "Ogidan Mukandasi Olaitan",
+        "viceChairman": "Saheed Bakre Taiwo",
+        "party": "APC",
+        "contact": "08090123456",
+        "email": "chairman@etiosa.gov.ng"
+          },
+          "ibejuLekki": {
+        "state": "Lagos",
+        "chairman": "Abiodun Suraju",
+        "viceChairman": "Ogunlana Kazeem",
+        "party": "APC",
+        "contact": "08101234567",
+        "email": "chairman@ibejulekki.gov.ng"
+          },
+          "ifakoIjaiye": {
+        "state": "Lagos",
+        "chairman": "Tijani Ahmed Idowu",
+        "viceChairman": "Sobande Sesan",
+        "party": "APC",
+        "contact": "08112345678",
+        "email": "chairman@ifakoijaiye.gov.ng"
+          },
+          "ikeja": {
+        "state": "Lagos",
+        "chairman": "Oke Francis Babatunde",
+        "viceChairman": "Olakanle Oladotun",
+        "party": "APC",
+        "contact": "08123456789",
+        "email": "chairman@ikeja.gov.ng"
+          },
+          "ikorodu": {
+        "state": "Lagos",
+        "chairman": "Akinola Hassan Ramotalai Olarewaju",
+        "viceChairman": "Badmus Olanrewaju Moshood",
+        "party": "APC",
+        "contact": "08134567890",
+        "email": "chairman@ikorodu.gov.ng"
+          },
+          "kosofe": {
+        "state": "Lagos",
+        "chairman": "Moyo Ogunlewe",
+        "viceChairman": "Olumide Adebayo",
+        "party": "APC",
+        "contact": "08145678901",
+        "email": "chairman@kosofe.gov.ng"
+          },
+          "lagosIsland": {
+        "state": "Lagos",
+        "chairman": "Muse Ariyoh Bolaji Idris",
+        "viceChairman": "Oso Oludaisi Timothy",
+        "party": "APC",
+        "contact": "08156789012",
+        "email": "chairman@lagosisland.gov.ng"
+          },
+          "lagosMainland": {
+        "state": "Lagos",
+        "chairman": "Ashafa Musibau Adekunle",
+        "viceChairman": "Kareem Azeez Abiodun",
+        "party": "APC",
+        "contact": "08167890123",
+        "email": "chairman@lagosmainland.gov.ng"
+          },
+          "mushin": {
+        "state": "Lagos",
+        "chairman": "Abdul Hammed Salawu",
+        "viceChairman": "Olubowale Sosinmi",
+        "party": "APC",
+        "contact": "08178901234",
+        "email": "chairman@mushin.gov.ng"
+          },
+          "oshodiIsolo": {
+        "state": "Lagos",
+        "chairman": "Ajide Yomi Tajudeen Yusuff",
+        "viceChairman": "Yusuf Bamidele Sulaiman",
+        "party": "APC",
+        "contact": "08189012345",
+        "email": "chairman@oshodiisolo.gov.ng"
+          },
+          "somolu": {
+        "state": "Lagos",
+        "chairman": "Omiyale Kayode Adejare",
+        "viceChairman": "Aileru Bolanle Nurudeen",
+        "party": "APC",
+        "contact": "08190123456",
+        "email": "chairman@somolu.gov.ng"
+          },
+          "surulere": {
+        "state": "Lagos",
+        "chairman": "Ajala Rasaq Olusola",
+        "viceChairman": "Jakande Oluseyi Lawal",
+        "party": "APC",
+        "contact": "08201234567",
+        "email": "chairman@surulere.gov.ng"
+          },
+          "yaba": {
+        "state": "Lagos",
+        "chairman": "Idowu Rasulu Olusola",
+        "viceChairman": "Uche-Ubochi Edna Obianuju",
+        "party": "APC",
+        "contact": "08212345678",
+        "email": "chairman@yaba.gov.ng"
           }
         }
       }

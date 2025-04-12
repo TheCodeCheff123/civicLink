@@ -21,6 +21,13 @@ export const getFederalLevel = (req: Request, res: Response): void => {
     });
 };
 
+export const getLocalGovernment = (req: Request, res: Response): void => {
+    res.status(200).json({
+        status: 'success',
+        data: governmentData.government.localGovernment.lga
+    });
+}
+
 export const getStates = (req: Request, res: Response): void => {
     res.status(200).json({
         status: 'success',
@@ -41,4 +48,6 @@ export const getStateLevel = (req: Request, res: Response): Response => {
         status: 'fail',
         message: 'State not found in database'
     });
+
+
 };

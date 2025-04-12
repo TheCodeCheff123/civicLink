@@ -72,7 +72,7 @@ class App {
     return this.app;
   }
 
-
+  
 }
 
 export default new App().getApp();

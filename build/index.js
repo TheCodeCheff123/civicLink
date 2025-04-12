@@ -27,7 +27,6 @@ class App {
         this.initializeRoutes();
         this.initializeDatabase();
         this.initializeErrorHandlers();
-        this.initializeGovernmentIntegration();
         this.startApp();
     }
     initializeMiddleWares() {
@@ -55,9 +54,6 @@ class App {
     }
     getApp() {
         return this.app;
-    }
-    initializeGovernmentIntegration() {
-        this.app.use(`/api/${this.api_version}/government`);
     }
 }
 exports.default = new App().getApp();
