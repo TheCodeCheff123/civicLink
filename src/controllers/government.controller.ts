@@ -28,6 +28,21 @@ export const getLocalGovernment = (req: Request, res: Response): void => {
     });
 }
 
+export const getLocalGovernmentLevel = (req: Request, res: Response): Response => {
+    const local = req.params.local;
+    // Check if the localgovernment parameter is provided
+    if (governmentData.government.localGovernment.lga[local]) {
+        return res.status(200).json({
+            status: 'success',
+            data: governmentData.government.localGovernment.lga[local]
+        });
+    }
+    return res.status(404).json({
+        status: 'fail',
+        message: 'State not found in database'
+    });
+}
+
 export const getStates = (req: Request, res: Response): void => {
     res.status(200).json({
         status: 'success',

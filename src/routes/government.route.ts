@@ -18,6 +18,7 @@ class GovernmentRoutes {
         this.router.get('/state', governmentController.getStates);
         this.router.get('/state/:state', governmentController.getStateLevel);
         this.router.get('/local', governmentController.getLocalGovernment);
+        this.router.get('/local/:local', governmentController.getLocalGovernmentLevel);
     }
 
     public getRoutes(): IRouter {
